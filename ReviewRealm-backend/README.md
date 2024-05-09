@@ -1,11 +1,11 @@
 
-# ReviewViz Backend
+# ReviewRealm Backend
 
 Visualize customer sentiment for smarter purchasing and marketing decisions :sparkles:
 
-ReviewViz is a sentiment analysis-based review visualization platform that aims to help consumers make informed purchasing decisions. The platform is designed to scrape reviews from a given Amazon URL, perform sentiment analysis on the text, and generate a word cloud that categorizes the words used in the reviews. This word cloud provides an easy-to-read visualization of the overall sentiment towards the product, as well as the most frequently used terms in the reviews.
+ReviewRealm is a sentiment analysis-based review visualization platform that aims to help consumers make informed purchasing decisions. The platform is designed to scrape reviews from a given Amazon URL, perform sentiment analysis on the text, and generate a word cloud that categorizes the words used in the reviews. This word cloud provides an easy-to-read visualization of the overall sentiment towards the product, as well as the most frequently used terms in the reviews.
 
-The backend of ReviewViz is built using FastAPI and MongoDB. It includes user registration and login functionality, as well as token-based authentication using JWT Tokens. The scraper used internally is asynchronous to handle large requests concurrently.
+The backend of ReviewRealm is built using FastAPI and MongoDB. It includes user registration and login functionality, as well as token-based authentication using JWT Tokens. The scraper used internally is asynchronous to handle large requests concurrently.
 
 
 
@@ -49,4 +49,19 @@ This provides detailed information about the available endpoints and their param
 
 Contributions are always welcome!  
 Please feel free to submit pull requests and report any issues or bugs that you encounter.
+
+## Running of backend
+
+The backend will run by using the command :
+bash
+python app.py
+
+when already in the backend directory.
+
+
+### If not in the backend directory, use the command :
+bash
+cd ReviewRealm-backend
+
+on terminal to go to the directory of backend and then use the command given above to run the backend.
 
